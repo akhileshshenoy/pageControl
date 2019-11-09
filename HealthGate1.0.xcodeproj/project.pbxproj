@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F267B5B2345C3F100A1B062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B5A2345C3F100A1B062 /* AppDelegate.swift */; };
+		3F267B5D2345C3F100A1B062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B5C2345C3F100A1B062 /* SceneDelegate.swift */; };
+		3F267B652345C3F100A1B062 /* HealthGate1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B632345C3F100A1B062 /* HealthGate1_0.xcdatamodeld */; };
+		3F267B672345C3F200A1B062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F267B662345C3F200A1B062 /* Assets.xcassets */; };
+		3F267B752345C3F200A1B062 /* HealthGate1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B742345C3F200A1B062 /* HealthGate1_0Tests.swift */; };
+		3F267B812345C4ED00A1B062 /* AgeConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B802345C4ED00A1B062 /* AgeConstant.swift */; };
+		3F267B862345C4F900A1B062 /* BloodGroupConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B822345C4F900A1B062 /* BloodGroupConstant.swift */; };
+		3F267B872345C4F900A1B062 /* VaccineConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B832345C4F900A1B062 /* VaccineConstant.swift */; };
+		3F267B882345C4F900A1B062 /* GenderConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B842345C4F900A1B062 /* GenderConstant.swift */; };
+		3F267B892345C4F900A1B062 /* CenterIDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B852345C4F900A1B062 /* CenterIDConstant.swift */; };
+		3F267B932345C58F00A1B062 /* VaccineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B922345C58F00A1B062 /* VaccineData.swift */; };
+		3F267B952345C59800A1B062 /* PhysicalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B942345C59700A1B062 /* PhysicalData.swift */; };
+		3F267B972345C59C00A1B062 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B962345C59C00A1B062 /* Patient.swift */; };
+		3F267B992345C5A200A1B062 /* ConstantProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F267B982345C5A200A1B062 /* ConstantProtocol.swift */; };
+		3F6A3F79236D7F6A0019BB4A /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3F78236D7F6A0019BB4A /* menuCell.swift */; };
+		3F6A3F7B236D7F9A0019BB4A /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3F7A236D7F9A0019BB4A /* menuController.swift */; };
+		3F6A3F7D236D88620019BB4A /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3F7C236D88620019BB4A /* extention.swift */; };
+		3F6A3F87236D997F0019BB4A /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3F86236D997F0019BB4A /* mainCell.swift */; };
+		3F6A3F89236D99F10019BB4A /* biometricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3F88236D99F10019BB4A /* biometricTableViewCell.swift */; };
+		3F6A3F8F236DA47E0019BB4A /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3F8E236DA47E0019BB4A /* ScheduleController.swift */; };
+		3F6A3F91236DB6D90019BB4A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A3F90236DB6D80019BB4A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F267B712345C3F200A1B062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F267B4F2345C3F100A1B062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F267B562345C3F100A1B062;
+			remoteInfo = HealthGate1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F267B572345C3F100A1B062 /* HealthGate1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthGate1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F267B5A2345C3F100A1B062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F267B5C2345C3F100A1B062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F267B642345C3F100A1B062 /* HealthGate1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthGate1_0.xcdatamodel; sourceTree = "<group>"; };
+		3F267B662345C3F200A1B062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F267B6B2345C3F200A1B062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F267B702345C3F200A1B062 /* HealthGate1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthGate1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F267B742345C3F200A1B062 /* HealthGate1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGate1_0Tests.swift; sourceTree = "<group>"; };
+		3F267B762345C3F200A1B062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F267B802345C4ED00A1B062 /* AgeConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgeConstant.swift; path = ../../../ConstantInterfaceSwiftFiles/AgeConstant.swift; sourceTree = "<group>"; };
+		3F267B822345C4F900A1B062 /* BloodGroupConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BloodGroupConstant.swift; path = ../../../ConstantInterfaceSwiftFiles/BloodGroupConstant.swift; sourceTree = "<group>"; };
+		3F267B832345C4F900A1B062 /* VaccineConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VaccineConstant.swift; path = ../../../ConstantInterfaceSwiftFiles/VaccineConstant.swift; sourceTree = "<group>"; };
+		3F267B842345C4F900A1B062 /* GenderConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenderConstant.swift; path = ../../../ConstantInterfaceSwiftFiles/GenderConstant.swift; sourceTree = "<group>"; };
+		3F267B852345C4F900A1B062 /* CenterIDConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CenterIDConstant.swift; path = ../../../ConstantInterfaceSwiftFiles/CenterIDConstant.swift; sourceTree = "<group>"; };
+		3F267B922345C58F00A1B062 /* VaccineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VaccineData.swift; path = ../../../Projects/HealthGate/HealthGate/model/VaccineData.swift; sourceTree = "<group>"; };
+		3F267B942345C59700A1B062 /* PhysicalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhysicalData.swift; path = ../../../Projects/HealthGate/HealthGate/model/PhysicalData.swift; sourceTree = "<group>"; };
+		3F267B962345C59C00A1B062 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Patient.swift; path = ../../../Projects/HealthGate/HealthGate/model/Patient.swift; sourceTree = "<group>"; };
+		3F267B982345C5A200A1B062 /* ConstantProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstantProtocol.swift; path = ../../../Projects/HealthGate/HealthGate/model/ConstantProtocol.swift; sourceTree = "<group>"; };
+		3F6A3F78236D7F6A0019BB4A /* menuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
+		3F6A3F7A236D7F9A0019BB4A /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
+		3F6A3F7C236D88620019BB4A /* extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
+		3F6A3F86236D997F0019BB4A /* mainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mainCell.swift; path = ../mainCell.swift; sourceTree = "<group>"; };
+		3F6A3F88236D99F10019BB4A /* biometricTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biometricTableViewCell.swift; sourceTree = "<group>"; };
+		3F6A3F8E236DA47E0019BB4A /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleController.swift; path = ../ScheduleController.swift; sourceTree = "<group>"; };
+		3F6A3F90236DB6D80019BB4A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F267B542345C3F100A1B062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F267B6D2345C3F200A1B062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F267B4E2345C3F100A1B062 = {
+			isa = PBXGroup;
+			children = (
+				3F6A3F90236DB6D80019BB4A /* Default-568h@2x.png */,
+				3F267B592345C3F100A1B062 /* HealthGate1.0 */,
+				3F267B732345C3F200A1B062 /* HealthGate1.0Tests */,
+				3F267B582345C3F100A1B062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F267B582345C3F100A1B062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F267B572345C3F100A1B062 /* HealthGate1.0.app */,
+				3F267B702345C3F200A1B062 /* HealthGate1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F267B592345C3F100A1B062 /* HealthGate1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3F267B7F2345C4D600A1B062 /* Model */,
+				3F267B5A2345C3F100A1B062 /* AppDelegate.swift */,
+				3F267B5C2345C3F100A1B062 /* SceneDelegate.swift */,
+				3F6A3F8E236DA47E0019BB4A /* ScheduleController.swift */,
+				3F6A3F78236D7F6A0019BB4A /* menuCell.swift */,
+				3F6A3F7A236D7F9A0019BB4A /* menuController.swift */,
+				3F6A3F86236D997F0019BB4A /* mainCell.swift */,
+				3F6A3F88236D99F10019BB4A /* biometricTableViewCell.swift */,
+				3F6A3F7C236D88620019BB4A /* extention.swift */,
+				3F267B662345C3F200A1B062 /* Assets.xcassets */,
+				3F267B6B2345C3F200A1B062 /* Info.plist */,
+				3F267B632345C3F100A1B062 /* HealthGate1_0.xcdatamodeld */,
+			);
+			path = HealthGate1.0;
+			sourceTree = "<group>";
+		};
+		3F267B732345C3F200A1B062 /* HealthGate1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F267B742345C3F200A1B062 /* HealthGate1_0Tests.swift */,
+				3F267B762345C3F200A1B062 /* Info.plist */,
+			);
+			path = HealthGate1.0Tests;
+			sourceTree = "<group>";
+		};
+		3F267B7F2345C4D600A1B062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F267B822345C4F900A1B062 /* BloodGroupConstant.swift */,
+				3F267B852345C4F900A1B062 /* CenterIDConstant.swift */,
+				3F267B842345C4F900A1B062 /* GenderConstant.swift */,
+				3F267B832345C4F900A1B062 /* VaccineConstant.swift */,
+				3F267B802345C4ED00A1B062 /* AgeConstant.swift */,
+				3F267B922345C58F00A1B062 /* VaccineData.swift */,
+				3F267B942345C59700A1B062 /* PhysicalData.swift */,
+				3F267B962345C59C00A1B062 /* Patient.swift */,
+				3F267B982345C5A200A1B062 /* ConstantProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F267B562345C3F100A1B062 /* HealthGate1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F267B792345C3F200A1B062 /* Build configuration list for PBXNativeTarget "HealthGate1.0" */;
+			buildPhases = (
+				3F267B532345C3F100A1B062 /* Sources */,
+				3F267B542345C3F100A1B062 /* Frameworks */,
+				3F267B552345C3F100A1B062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthGate1.0;
+			productName = HealthGate1.0;
+			productReference = 3F267B572345C3F100A1B062 /* HealthGate1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F267B6F2345C3F200A1B062 /* HealthGate1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F267B7C2345C3F200A1B062 /* Build configuration list for PBXNativeTarget "HealthGate1.0Tests" */;
+			buildPhases = (
+				3F267B6C2345C3F200A1B062 /* Sources */,
+				3F267B6D2345C3F200A1B062 /* Frameworks */,
+				3F267B6E2345C3F200A1B062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F267B722345C3F200A1B062 /* PBXTargetDependency */,
+			);
+			name = HealthGate1.0Tests;
+			productName = HealthGate1.0Tests;
+			productReference = 3F267B702345C3F200A1B062 /* HealthGate1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F267B4F2345C3F100A1B062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F267B562345C3F100A1B062 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3F267B6F2345C3F200A1B062 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3F267B562345C3F100A1B062;
+					};
+				};
+			};
+			buildConfigurationList = 3F267B522345C3F100A1B062 /* Build configuration list for PBXProject "HealthGate1.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F267B4E2345C3F100A1B062;
+			productRefGroup = 3F267B582345C3F100A1B062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F267B562345C3F100A1B062 /* HealthGate1.0 */,
+				3F267B6F2345C3F200A1B062 /* HealthGate1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F267B552345C3F100A1B062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F267B672345C3F200A1B062 /* Assets.xcassets in Resources */,
+				3F6A3F91236DB6D90019BB4A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F267B6E2345C3F200A1B062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F267B532345C3F100A1B062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F267B892345C4F900A1B062 /* CenterIDConstant.swift in Sources */,
+				3F267B952345C59800A1B062 /* PhysicalData.swift in Sources */,
+				3F267B932345C58F00A1B062 /* VaccineData.swift in Sources */,
+				3F267B992345C5A200A1B062 /* ConstantProtocol.swift in Sources */,
+				3F267B872345C4F900A1B062 /* VaccineConstant.swift in Sources */,
+				3F267B972345C59C00A1B062 /* Patient.swift in Sources */,
+				3F267B812345C4ED00A1B062 /* AgeConstant.swift in Sources */,
+				3F6A3F7D236D88620019BB4A /* extention.swift in Sources */,
+				3F6A3F79236D7F6A0019BB4A /* menuCell.swift in Sources */,
+				3F267B862345C4F900A1B062 /* BloodGroupConstant.swift in Sources */,
+				3F6A3F7B236D7F9A0019BB4A /* menuController.swift in Sources */,
+				3F6A3F8F236DA47E0019BB4A /* ScheduleController.swift in Sources */,
+				3F267B652345C3F100A1B062 /* HealthGate1_0.xcdatamodeld in Sources */,
+				3F6A3F89236D99F10019BB4A /* biometricTableViewCell.swift in Sources */,
+				3F6A3F87236D997F0019BB4A /* mainCell.swift in Sources */,
+				3F267B5B2345C3F100A1B062 /* AppDelegate.swift in Sources */,
+				3F267B882345C4F900A1B062 /* GenderConstant.swift in Sources */,
+				3F267B5D2345C3F100A1B062 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F267B6C2345C3F200A1B062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F267B752345C3F200A1B062 /* HealthGate1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F267B722345C3F200A1B062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F267B562345C3F100A1B062 /* HealthGate1.0 */;
+			targetProxy = 3F267B712345C3F200A1B062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F267B772345C3F200A1B062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F267B782345C3F200A1B062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F267B7A2345C3F200A1B062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP6N4YTCAS;
+				INFOPLIST_FILE = HealthGate1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "student.HealthGate1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F267B7B2345C3F200A1B062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP6N4YTCAS;
+				INFOPLIST_FILE = HealthGate1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "student.HealthGate1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F267B7D2345C3F200A1B062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP6N4YTCAS;
+				INFOPLIST_FILE = HealthGate1.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "student.HealthGate1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthGate1.0.app/HealthGate1.0";
+			};
+			name = Debug;
+		};
+		3F267B7E2345C3F200A1B062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MP6N4YTCAS;
+				INFOPLIST_FILE = HealthGate1.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "student.HealthGate1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthGate1.0.app/HealthGate1.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F267B522345C3F100A1B062 /* Build configuration list for PBXProject "HealthGate1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F267B772345C3F200A1B062 /* Debug */,
+				3F267B782345C3F200A1B062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F267B792345C3F200A1B062 /* Build configuration list for PBXNativeTarget "HealthGate1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F267B7A2345C3F200A1B062 /* Debug */,
+				3F267B7B2345C3F200A1B062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F267B7C2345C3F200A1B062 /* Build configuration list for PBXNativeTarget "HealthGate1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F267B7D2345C3F200A1B062 /* Debug */,
+				3F267B7E2345C3F200A1B062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F267B632345C3F100A1B062 /* HealthGate1_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F267B642345C3F100A1B062 /* HealthGate1_0.xcdatamodel */,
+			);
+			currentVersion = 3F267B642345C3F100A1B062 /* HealthGate1_0.xcdatamodel */;
+			path = HealthGate1_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F267B4F2345C3F100A1B062 /* Project object */;
+}
